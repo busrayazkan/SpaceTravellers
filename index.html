@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="icon" type="image/x-icon" href="./images/space-logo.png">
+    <title>Space Travellers</title>
+</head>
+
+<body>
+    <!-- yukarı çık butonu start -->
+    <button onclick="scrollToTop()" id="scrollToTopBtn">
+        <img src="./images/rocketicon.png" alt="Yukarı Çık">
+      </button>
+    <!-- yukarı çık butonu end -->
+    <!-- header start -->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="/hi-kodfinal/images/space-logo.png" alt="logo" />
+        </a>
+        <nav class="navbar">
+            <a href="#home">Ana Sayfa</a>
+            <a href="#axiom3">Axiom-3</a>
+            <a href="#murettebat">Mürettebat </a>
+            <a href="#alpergezeravci">Alper Gezeravcı</a>
+            <a href="#araclar">Araçlar</a>
+            <a href="#gorevozet">AX-3 Görev Özeti</a>
+        </nav>
+        <div class="buttons">
+            <!-- <button id="menu-btn"> -->
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- home start -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>TÜRKİYE'NİN İNSANLI İLK UZAY GÖREVİNİ <br>
+                KEŞFETMEYE HAZIR MISIN?</h3>
+            <!-- <p>
+          Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Laboriosam
+          Quos Repellendus Aliquam Quam Aperiam Quas?
+        </p> -->
+            <a href="#" class="btn">KEŞFET</a>
+        </div>
+    </section>
+    <!-- home end -->
+
+    <!-- SLIDER2 START -->
+    <section class="archive1">
+        <!-- <h1 class="heading"></h1> -->
+        <section class="container-s">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="/hi-kodfinal/images/7-Ax-3+Prime+Crew+websm.png" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/hi-kodfinal/images/8-Axiom_Mission_3_at_the_ISS.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/hi-kodfinal/images/9-gftg.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/hi-kodfinal/images/10-ax03e001714.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/hi-kodfinal/images/11-ax03e007073.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/hi-kodfinal/images/12-Ax3_SpaceX_Egress_20240209_0637.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- Swiper JS-->
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    spaceBetween: 30,
+                    effect: "fade",
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                });
+            </script>
+        </section>
+    </section>
+    <!-- SLIDER 2 END -->
+    <!-- about us start -->
+    <section class="about" id="axiom3">
+        <h1 class="heading"> axıom<span> mıssıon-3</span></h1>
+        <div class="row">
+            <div class="image">
+                <img src="/hi-kodfinal/images/Axiom_3_mission_patch.png" alt="about" />
+            </div>
+            <div class="content">
+                <!-- <h3>baslık</h3> -->
+                <p>
+                    Axiom Mission 3 (veya Ax-3), Axiom Space tarafından Uluslararası Uzay İstasyonu'na düzenlenen ve
+                    SpaceX tarafından sağlanan Crew Dragon Freedom uzay aracının kullanıldığı üçüncü uzay görevidir.
+                    Axiom Space'in üçüncü ticari insanlı uzay uçuşu misyonu, Uluslararası Uzay İstasyonuna fırlatılan
+                    tüm Avrupa'yı kapsayan ilk ticari astronot misyonudur;
+                </p>
+                <p>
+                    Uçuş, 18 Ocak 2024 21:49 UTC (TSİ 19 Ocak 2024 00.49) tarihinde Falcon 9 Block 5 roketinin
+                    fırlatılmasıyla başladı.[1][2] Yaklaşık 37 saat süren yolculuğun ardından astronotları taşıyan Crew
+                    Dragon uzay aracı 20 Ocak 2024 TSİ 13:42'de Uluslararası Uzay İstasyonu'na başarıyla kenetlendi.
+                </p>
+                <p>
+                    Astronotlar, 14 gün süren görev süresince çeşitli deneyler gerçekleştirdiler.[1] Hava koşullarının
+                    müsait olmaması nedeniyle mürettebatın Dünya'ya dönüşü 3 defa ertelendi.[6] Crew Dragon uzay aracı,
+                    7 Şubat 2024 TSİ 17:20'de Uluslararası Uzay İstasyonu'ndan ayrıldı. Yaklaşık 2 gün süren yolculuk,
+                    kapsülün 9 Şubat 2024 TSİ 16:30'da Atlas Okyanusu'na inmesiyle birlikte sona erdi.
+                </p>
+                <!-- <a href="#" class="btn">learn more</a> -->
+            </div>
+        </div>
+    </section>
+    <!-- about us end -->
+    <!-- passengers start -->
+    <section class="crew" id="murettebat">
+        <h1 class="heading">AXIOM-3 <span>Mürettebat</span></h1>
+        <p>Mürettebat:
+            Ax-3 Komutanı Michael López-Alegría (ABD ve İspanya temsil eden); İtalyan Hava Kuvvetleri Albayı Pilot
+            Walter Villadei (İtalya temsil eden)
+            ; Görev Uzmanı Alper Gezeravcı (Türkiye temsil eden); ESA projesi astronotu Görev Uzmanı Marcus Wandtve
+            (İsveç'i temsil eden).</p>
+        <p>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <img src="/hi-kodfinal/images/Ax-3+Commander+Michael+López-Alegría.jpg"
+                        alt="Michael López-Alegría" />
+                    <h3>Michael López-Alegría</h3>
+                    <span class="info">Ax-3 Komutanı</span>
+                </div>
+                <div class="box-bottom">
+                    <a href="https://www.axiomspace.com/astronaut/michael-lopez-alegria" target="_blank" class="btn">İncele</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="/hi-kodfinal/images/Ax-3+Pilot+Walter+Villadei.jpg" alt="Walter Villadei" />
+                    <h3>Walter Villadei</h3>
+                    <span class="info">Ax-3 Pilot</span>
+                </div>
+                <div class="box-bottom">
+                    <a href="https://www.axiomspace.com/astronaut/walter-villadei" target="_blank" class="btn">İncele</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="/hi-kodfinal/images/Ax-3+Mission+Specialist+Alper+Gezeravcı.jpg"  alt="Alper Gezeravcı " />
+                    <h3>Alper Gezeravcı</h3>
+                    <span class="info">Ax-3 Görev Uzmanı</span>
+                </div>
+                <div class="box-bottom">
+                    <a href="https://www.axiomspace.com/astronaut/alper-gezeravci" target="_blank" class="btn">İncele</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="/hi-kodfinal/images/Ax-3+Mission+Specialist+Marcus+Wandt.jpg" alt="Marcus Wandt" />
+                    <h3>Marcus Wandt</h3>
+                    <span class="info">Ax-3 Görev Uzmanı</span>
+                </div>
+                <div class="box-bottom">
+                    <a href="https://www.axiomspace.com/astronaut/marcus-wandt" target="_blank" class="btn">İncele</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- passengers end -->
+    <!-- alper gezeravcı -->
+    <section class="about" id="alpergezeravci">
+        <h1 class="heading"> ALPER <span> GEZERAVCI </span></h1>
+        <div class="row">
+            <div class="content">
+                <!-- <h3>baslık</h3> -->
+                <p>
+                    Aralık 1979'da Silifke, Türkiye'de doğan Gezeravcı, İstanbul Hava Harp Okulu'nda Elektronik
+                    Mühendisliği alanında lisans eğitimini tamamladı. Ayrıca Wright-Patterson Hava Kuvvetleri Üssü'ndeki
+                    Hava Kuvvetleri Teknoloji Enstitüsü'nde yüksek lisans yaptı.
+                </p>
+                <p> Türk Hava Kuvvetleri'nde savaş pilotu olarak görev yapan Gezeravcı, aralarında T-41, SF-260,
+                    T-37, T-38, F-5, KC-135 ve F-16'nın da bulunduğu birçok uçakta 15 yıllık uçuş tecrübesine sahip.
+                    Ayrıca Türk Hava Yolları'nda yedi yıl kaptanlık yaptı. Gezeravcı ayrıca uçuş lideri, uçuş emniyet
+                    görevlisi ve ticari havayollarında kaptan olarak görev yaptı.
+                </p>
+                <p> Gezeravcı, son olarak Standardizasyon Filosu Akademik Kanat Komutanı olarak Adana'daki 10'uncu
+                    Üs Komuta Birimi'ne atandı. Filonun standardizasyonu ve değerlendirilmesi, tüm eğitim dokümanlarının
+                    Hava Kuvvetleri standartlarına göre düzenlenmesi, tüm F-16 ve KC-135R pilotlarının kontrol sürüşleri
+                    öncesinde sınavlarının yapılması ve filo dokümantasyon standartlarının denetlenmesinden sorumluydu.
+                </p>
+                <p> Askeri eğitimi sayesinde birçok hayatta kalma eğitimi kursuna ve askeri konuşlandırmaya katılmıştır.
+                </p>
+                <p> Gezeravcı, uzaya giden ilk Türk astronotu olarak tarihi Axiom Mission 3'te(Ax-3) görev uzmanı olarak görev
+                    yaptı. Bu süreçte planlamış olan 13 deneyi başarıyla yaptı.
+                </p>
+                <!-- <a href="#" class="btn">learn more</a> -->
+            </div>
+            <div class="image">
+                <img src="/hi-kodfinal/images/alper-gezeravci-aa-2173077.jpg" alt="about" />
+            </div>
+        </div>
+    </section>
+    <!-- alper gezeravcı -->
+    <!-- Capsules start -->
+    <section class="capsule" id="araclar">
+        <h1 class="heading">ARAÇLAR</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">FALCON 9</span>
+                </div>
+                <div class="image">
+                    <img src="/hi-kodfinal/images/50618463487_41642939a4_o.jpg" alt="" />
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">DRAGON KAPSÜLÜ</span>
+                </div>
+                <div class="image">
+                    <img src="/hi-kodfinal/images/dragon_capsule.png" alt="" />
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">PARAŞÜT SİSTEMİ</span>
+                </div>
+                <div class="image">
+                    <img src="/hi-kodfinal/images/iHNPQh8B3qoaoncq3FB4HG.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- capsules end -->
+    <!-- recap video start -->
+    <section class="videos" id="gorevozet">
+        <h1 class="heading"> Görev <span> Özeti </span></h1>
+        <div class="video">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/J4Sa95fgFaI" title="Ax-3 Mission Recap"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </section>
+    <!-- recap video END -->
+    <!-- SLIDER START -->
+    <section class="archive2">
+        <h1 class="heading"></h1>
+        <section class="container-s">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="/hi-kodfinal/images/1-dragon_feature.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/hi-kodfinal/images/2-KSC-20190225PH_SPX01_0001large.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/hi-kodfinal/images/3-18axiom-launch-new-zgkv-superJumbo.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/hi-kodfinal/images/4-DRAGON_DRAGON+ISS_3840x2025.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/hi-kodfinal/images/5-DRAGON_DM2_LC39A_3840x2560.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/hi-kodfinal/images/6-image008.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- Swiper JS-->
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    spaceBetween: 30,
+                    effect: "fade",
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                });
+            </script>
+        </section>
+    </section>
+    <!-- SLIDER END -->
+    <!-- FOOTER START -->
+    <section class="footer">
+        <div class="links">
+            <a href="https://www.axiomspace.com/" target="_blank">Axiom Space</a>
+            <a href="https://www.spacex.com/vehicles/dragon/" target="_blank">SpaceX</a>
+            <a href="https://tua.gov.tr/tr" target="_blank">TUA</a>
+        </div>
+    </section>
+    <!-- FOOTER END -->
+    <!-- yukarı çık için JS -->
+    <script>
+        function scrollToTop() {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth' // Düzgün bir kaydırma efekti
+          });
+        }
+      </script>
+    <!-- yukarı çık için JS -->
+</body>
+
+</html>
